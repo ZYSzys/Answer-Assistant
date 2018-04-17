@@ -13,8 +13,12 @@
 2. 安装所需 python 包
 
    命令行：
+   ```
+   git clone git@github.com:ZYSzys/Answer-Assistant.git
+   cd Answer-Assistant 
+   pip install -r requirements.txt
+   ```
 
-   `pip install -r requirements.txt`
 
 
 ## 使用步骤 (百度 OCR)
