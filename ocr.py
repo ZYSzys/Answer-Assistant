@@ -27,8 +27,8 @@ def ocr_img(img, config):
 	words_result = response['words_result']
 
 	texts = ''.join([x['words'] for x in words_result])
-	#print(texts)
-	return texts[:texts.index('A')-1]
+	# print(texts)
+	return texts
 
 
 if __name__ == '__main__':
